@@ -2,10 +2,26 @@
 
 ## 配置
 
-~~~
-$git config --global user.name "ligiggy"
-$git config --global user.email "ligiggy1234@gmail.com"
-~~~
+* 基础配置
+
+  ~~~
+  $git config --global user.name "ligiggy"
+  $git config --global user.email "ligiggy1234@gmail.com"
+  ~~~
+
+* 创建本地库
+
+  ~~~
+  cd f:learngit
+  ~~~
+
+* 初始化本地库
+
+  ~~~
+  git init
+  ~~~
+
+  
 
 
 
