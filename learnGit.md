@@ -105,6 +105,12 @@ $git config --global user.email "ligiggy1234@gmail.com"
   git push -u origin master
   ~~~
 
+* 远程与本地库不匹配需要merge
+
+  ~~~
+  git pull --rebase origin master
+  ~~~
+
 
 
 ## 分支操作
