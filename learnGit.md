@@ -175,3 +175,68 @@
   ~~~
 
   注意：merge分支存在冲突，需要解决冲突后重新add，commit。
+
+
+
+## 标签管理
+
+* 创建一个新标签
+
+  ~~~
+  git tag V1.0
+  ~~~
+
+* 对历史提交建立标签
+
+  ~~~
+  git tag v0.9 f52c64
+  ~~~
+
+* 查看标签
+
+  ~~~
+  git tag
+  ~~~
+
+  注意：标签是按照字母顺序显示的，不是按照时间顺序显示的
+
+* 显示标签信息
+
+  ~~~
+  git show V1.0
+  ~~~
+
+* 创建带说明的标签
+
+  -a 指定标签名，-m指定说明文字
+
+  ~~~
+  git tag -a v1.0 -m "version 1.0 Release" 1094db
+  ~~~
+
+* 删除标签
+
+  ~~~
+  git tag -d v1.0
+  ~~~
+
+* 推送标签到远程
+
+  ~~~
+  git push origin v1.0
+  ~~~
+
+* 一次推送所有的标签
+
+  ~~~
+  git push origin --tags
+  ~~~
+
+* 远程删除标签
+
+  ~~~
+  git tag -d v1.0
+  git push origin :refs/tags/v1.0
+  ~~~
+
+* 
