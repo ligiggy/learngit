@@ -127,6 +127,14 @@
   git pull --rebase origin master
   ~~~
 
+* 删除远程库
+
+  ~~~
+  git remote rm origin
+  ~~~
+
+  
+
 
 
 ## 分支操作
